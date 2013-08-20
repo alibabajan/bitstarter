@@ -7,7 +7,7 @@ app.get('/', function(request, response) {
   response.send(readFile());
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8888;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
